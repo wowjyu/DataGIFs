@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Data GIFs</title>
+    <style type="text/css">
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            /* font-family: Helvetica, sans-serif; */
+            /* font-weight: 100; */
+            line-height: 1.3em;
+            display: flex;
+            justify-content: center;
+        }
+
+        .content-wrapper {
+            flex: 0 1 800px;
+            display: flex;
+            flex-direction: column;
+            /*padding: 0 550px;*/
+
+        }
+
+        .header-wrapper {
+            flex: 0 1 100px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .header {
+            flex: 0 1 80%;
+        }
+
+        .title1 {
+            padding-top: 20px;
+            font-size: 36px;
+        }
+
+        .title2 {
+            padding-top: 10px;
+            font-size: 20px;
+        }
+
+        .authors {
+            font-style: italic;
+            font-size: 18px;
+        }
+
+        video {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin: 2px;
+        }
+
+        .video-container img {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-top: 20px;
+            padding: 5px 10px;
+        }
+
+        .interview-gifs {
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+            width: 100%;
+            height: 500px;
+            text-align: center;
+        }
+
+        .interview-gif {
+            box-sizing: border-box;
+            flex: 0 0 25%;
+            height: 250px;
+            /* justify-content: center; */
+            /* padding: 15px 0 0 15px; */
+        }
+        
+        .interview-gif p {
+            /* display: inline-block;  */
+            vertical-align: bottom;
+        }
+
+        .content {
+            flex: 0 1;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-menu {
+            text-align: center;
+        }
+
+        .section-title-wrapper {
+            display: flex;
+            flex-direction: row
+        }
+
+        .section-title {
+            flex: 0 1 85%;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .section-gallery {
+            flex: 0 1;
+            font-size: 14px;
+            padding: 12px 0 0 0;
+            color: #2A5DB0;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 20px;
+        }
+
+        .section-menu .menus a {
+            font-size: 18px;
+            margin-right: 30px;
+            margin-left: 5px;
+        }
+
+        .text-container {
+            text-align: justify;
+            padding-top: 10px;
+            /* padding-bottom: 10px; */
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <div class="header-wrapper">
+            <div class="header">
+                <div class="title1">
+                    Data GIFs
+                </div>
+                <div class="title2">
+                    Shaping Data Stories with Animated Charts and Short Loops
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <section id="intro" class="section">
+                <div class="section-content video-container">
+                    <!-- <iframe width="100%" height="400" src="https://www.youtube.com/" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+                    <video width="100%" height="480" controls="" onmouseover="this.play()">
+                        <source src="./img/chi20.mp4">
+                    </video>
+                </div>
+                <div class="section-menu">
+                    <p class="authors">
+                        <a href="http://www.cse.ust.hk/~xshuaa/">Xinhuan Shu</a>,&nbsp
+                        <a href="http://awuac.student.ust.hk/">Aoyu Wu</a>,&nbsp
+                        <a href="http://www.yangleni.com/">Leni Yang</a>, and 
+                        <a href="http://huamin.org/">Huamin Qu</a>
+                    </p>
+                    
+                    <p class="menus">
+                        <img height="30px" src="./img/gallery.png">
+                        <a href="#gallery">Data GIFs Collection</a>
+                        
+                        <img height="30px" src="./img/analysis.png">
+                        <a href="#analysis">Analysis</a>
+                        
+                        <img height="30px" src="./img/interviews.png">
+                        <a href="#interview">Interviews</a>
+                    </p>
+                </div>
+
+            </section>
+
+            <section id="gallery" class="section">
+                <div class="section-title"><b>Data GIFs Collection</b></div>
+                <div class="section-content">
+                    <p class="text-container">
+                        To better understand data GIFs in current practices, we collected a list of data GIFs from diverse sources. 
+                        The selection criteria were twofold: 1) data GIFs should contain visualization and convey insights, excluding system
+                        demonstrations; 2) the collection should capture a range of stories and designs.
+                        <br><br>
+                        All data GIFs we collected can be found in <a href="https://docs.google.com/spreadsheets/d/1RqJfuOKR_TXPnEfTpg9HCt48YgBPLRjLrgxxL-e3jsg/edit?usp=sharing"><b>the gallery</b></a>. 
+                    </p>
+                </div>
+
+            </section>
+
+            <section id="analysis" class="section">
+                <div class="section-title"><b>Analysis</b></div>
+                <div class="video-container">
+                    <img src="./img/summary.png" width="50%" height="50%">
+                </div>
+                <div class="section-content">
+                    <p class="text-container">
+                        To explore the design space, we considered the innate nature of GIFs, namely, the temporal context and the loop.
+                        We coded all data GIFs based on: 1) what the GIF timeline encodes, 2) what visualization they use, 3) how
+                        they expose context between frames, 4) how they circulate the loop. 
+                        <br><br>
+                        We summarized results in the figure. Each row indicates a combination of certain designs (Timeline x Exposure x Loop). The numbers represents the amounts of data GIFs with this type of visualization in our corpus.
+                        The analysis of each data GIF can be found in <a href="https://docs.google.com/spreadsheets/d/1RqJfuOKR_TXPnEfTpg9HCt48YgBPLRjLrgxxL-e3jsg/edit?usp=sharing"><b>the online version</b></a>. 
+                    </p>
+                </div>
+            
+            </section>
+
+            <section id="interview" class="section">
+                <div class="section-title"><b>Interviews</b></div>
+                <div class="section-content">
+                    <p class="text-container">
+                        The goal is to capture the perceptions of data GIFs from the perspective of viewers and derive design implications.
+                        We interviewed 12 participants with varying levels of visualization literacy from different fields, including
+                        visualization (P1-P5), graphic designs (P6-P8), economics (P9-P10), and engineering (P11-P12).
+                    </p>
+
+                    <p class="text-container">
+                        <b>Study Design:</b>
+                        <br>
+                        To keep participants motivated and engaged, we selected 8 representative data GIFs from our corpus. We asked participants first to watch GIFs until they could recognize the underlying data insights. They then reported their findings and shared thoughts about designs and reading experiences. The interview was recorded and lasted about 35 minutes.
+                    </p>
+
+                    <p class="text-container">
+                        <b>Materials:</b>
+                        <br>
+                        The selected data GIFs aim to cover different features in our corpus, such as temporal encoding and animation designs. Details about each data GIF we showed to participants can be found below.
+                    </p>
+                    <div class="interview-gifs">
+                        <div class="interview-gif">
+                            <img src="./img/A-Google.gif" width="90%" >
+                            <p>GIF A</p>
+                        </div>
+                        <div class="interview-gif">
+                            <img src="./img/B-USElection.gif" width="90%">
+                            <p>GIF B</p>
+                        </div>
+                        <div class="interview-gif">
+                            <img src="./img/C-FlightPatterns.gif" width="90%" >
+                            <p>GIF C</p>
+                        </div>
+                        <div class="interview-gif">
+                            <img src="./img/D-GlobalTemperature.gif" width="80%" >
+                            <p>GIF D</p>
+                        </div>
+                        <div class="interview-gif">
+                            <img src="./img/E-Baseline.gif" width="90%" >
+                            <p>GIF E</p>
+                        </div>
+                        <div class="interview-gif">
+                            <img src="./img/F-AmericanGrowingBigger.gif" width="90%" >
+                            <p>GIF F</p>
+                        </div>
+                        <div class="interview-gif">
+                            <img src="./img/G-GunNYC.gif" width="70%" >
+                            <p>GIF G</p>
+                        </div>
+                        <div class="interview-gif">
+                            <img src="./img/H-ArcticClimate.gif" width="100%" >
+                            <p>GIF H</p>
+                        </div>
+                        
+                    </div>
+
+                    <p class="text-container">
+                        <b>Findings:</b>
+                        <br>
+                        Please see paper for now.
+                    </p>
+                    
+                </div>
+            </section>
+        </div>
+    </div>
+
+</body>
+
+</html>
